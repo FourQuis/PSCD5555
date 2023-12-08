@@ -1,0 +1,404 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraLight.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Italic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ThinItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-MediumItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-LightItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-BlackItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Thin.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-BoldItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Light.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+/*Nunito font*/
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-Black.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-Light.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-Bold.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-SemiBold.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-Regular.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-Medium.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-ExtraLight.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-ExtraBold.woff2') format('woff2'),
+        url('../fonts/nunito/Nunito-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #7e7e7e;
+    overflow-x: hidden;
+}
+
+label {
+    font-weight: normal;
+    color: #2e3337;
+}
+
+a {
+    color: #2e3337;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #0065eb;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0px;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    padding-left: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    color: #34406c;
+    margin-top: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+blockquote,
+q {
+    display: inline-block;
+    padding: 10px 22px 12px 22px;
+    border-left: 4px solid #01c6fb;
+    color: #2e3337;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn {
+    background: rgb(48, 194, 241);
+    background: -moz-linear-gradient(-45deg, rgba(48, 194, 241, 1) 0%, rgba(146, 90, 164, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(48, 194, 241, 1) 0%, rgba(146, 90, 164, 1) 100%);
+    background: linear-gradient(135deg, rgba(48, 194, 241, 1) 0%, rgba(146, 90, 164, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30c2f1', endColorstr='#925aa4', GradientType=1);
+    color: #fff;
+    padding: 0px 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border: 0px;
+    font-size: 13px;
+    line-height: 1.5;
+    display: inline-block;
+    box-shadow: 0 6px 16px rgba(146, 90, 164, 0.3);
+    height: 42px;
+    line-height: 42px;
+    border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+}
+.gradientOne {
+    background: rgb(48, 194, 241);
+    background: -moz-linear-gradient(-45deg, rgba(48, 194, 241, 1) 0%, rgba(146, 90, 164, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(48, 194, 241, 1) 0%, rgba(146, 90, 164, 1) 100%);
+    background: linear-gradient(135deg, rgba(48, 194, 241, 1) 0%, rgba(146, 90, 164, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30c2f1', endColorstr='#925aa4', GradientType=1);
+}
+
+.btn.btn_outline, .btn.btn_white {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    line-height: 40px;
+    padding: 0 20px;
+}
+.btn.btn_white {
+    background: #fff;
+    color: #222;
+}
+.btn.btn_white:hover {
+    background: transparent;
+    color: #fff;
+}
+.btn.btn_outline:hover {
+    background: #fff;
+    color: #222;
+}
+.btn:hover,
+.about_sec .what-we-do-item:hover,
+.service_item:hover,
+.pricing_item:hover,
+.dots_bottom ul.slick-dots li.slick-active button,
+.scrollUp,
+.team_member_overlay:after {
+    background: rgb(146, 90, 164);
+    background: -moz-linear-gradient(-45deg, rgba(146, 90, 164, 1) 0%, rgba(48, 194, 241, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(146, 90, 164, 1) 0%, rgba(48, 194, 241, 1) 100%);
+    background: linear-gradient(135deg, rgba(146, 90, 164, 1) 0%, rgba(48, 194, 241, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#925aa4', endColorstr='#30c2f1', GradientType=1);
+    color: #fff;
+}
+
+.smooth,
+.btn {
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+}
+
+.c_blue {
+    color: #2fc3f2;
+}
+.bg_light_gray {
+    background: #f5f7fe;
+}
+.bg_blue {
+    background: #2fc3f2;
+}
+
+.br-50{
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+}
+.br-4{
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+}
+.br-0{
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+}
+
+/* Hearder  */
+header.main-header {
+    background: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    padding: 15px 0px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo {
+    max-width: 155px;
+}
+.site-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
