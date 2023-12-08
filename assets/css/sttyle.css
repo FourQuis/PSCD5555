@@ -1,0 +1,75 @@
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-slider {
+    max-width: 100%;
+}
+#img-slider h2 {
+    color:black;
+    text-align: center;
+}
+#img-slider {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+#img-slider img{
+    width: 100%;
+    height: 100%;
+}
+#img-slider i:first-child{
+    position: absolute;
+    top:50%;
+    left: 25px;
+    color: aqua;
+    font-size: 40px;
+}
+#img-slider i:last-child{
+    position: absolute;
+    top:50%;
+    right: 25px;
+    color: aqua;
+    font-size: 40px;
+}
+.slider-click {
+    position: relative;
+}
+.slider-click .bx-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(80,80,80,0.75);
+    width: 100%;
+}
+.slider-click .bx-caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: 1rem;
+    padding: 20px;
+}
+ .bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+#img-slider .bx-pager {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+#img-slider .bx-pager-link :hover {
+    background: #000; /* Màu sắc khi được chọn */
+}
+#img-slider .bx-pager-link.active {
+        background: #000; /* Màu sắc khi được chọn */
+}

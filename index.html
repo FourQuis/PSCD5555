@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/sttyle.css" />
+    <title>Slider</title>
+</head>
+<body>
+    <div id="img-slider">
+        <h2>BImage gallery with captions</h2>
+        <div class="slider-click">
+            <img id="show" src="assets/img/0.jpg" />
+            <div class="bt-click">
+                <i class="fa fa-chevron-circle-left" onclick="prev()"></i>
+                <i class="fa fa-chevron-circle-right" onclick="next()"></i>
+            </div>
+            <div class="bx-caption">
+                <span id="cap">Coffe 1</span>
+            </div>
+        </div>
+        <div class="bx-pager bx-default-pager">
+            <div class="bx-pager-item">
+                <a href="#" data-slide-index="0" onclick="clickd(event, 0)" class="bx-pager-link active">1</a>
+            </div>
+            <div class="bx-pager-item">
+                <a href="#" data-slide-index="1" onclick="clickd(event, 1)" class="bx-pager-link">2</a>
+            </div>
+            <div class="bx-pager-item">
+                <a href="#" data-slide-index="2" onclick="clickd(event, 2)" class="bx-pager-link">3</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var arr_img = [
+            "assets/img/0.jpg",
+            "assets/img/1.jpg",
+            "assets/img/2.jpg",
+        ];
+        var i = 0;
+        var kt = false;
+
+        function prev() {
+            if (kt) return;
+            kt = true;
+
+            i--;
+            if (i < 0) i = arr_img.length - 1;
+            updateImageAndCaption();
+            updatePagerLink();
+        }
+        function next() {
+            if (kt) return;
+            kt = true;
+
+            i++;
+            if (i >= arr_img.length) i = 0;
+            updateImageAndCaption();
+            updatePagerLink();
+        }
+
+        function clickd(event, index) {
+            if (kt) return;
+            kt = true;
+            var pagerLinks = document.querySelectorAll('.bx-pager-link');
+            pagerLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+
+            event.target.classList.add('active');
+
+            i = index;
+            updateImageAndCaption();
+        }
+        function updateImageAndCaption() {
+            var imgx = document.getElementById("show");
+            imgx.src = arr_img[i];
+            var capx = document.getElementById("cap");
+            capx.innerHTML = "Coffe " + (i + 1);
+            setTimeout(function() {
+                kt = false;
+            }, 100);
+        }
+        function updatePagerLink() {
+            var pagerLinks = document.querySelectorAll('.bx-pager-link');
+            pagerLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+            var currentPagerLink = document.querySelector('.bx-pager-link[data-slide-index="' + i + '"]');
+            currentPagerLink.classList.add('active');
+        }
+    </script>
+</body>
+</html>
