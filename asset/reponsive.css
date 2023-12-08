@@ -1,0 +1,29 @@
+@media (min-width: 1024px) {
+
+}
+/* Talet */
+@media (min-width: 740px) and (max-width:1023px){
+
+}
+/* Moble */
+@media (max-width: 740px) {
+   .container {
+      max-width: 740px;
+   }
+   .navbar-collapse {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    }
+   .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+     }
+     .d-flex {
+        display: flex!important;
+     }
+}
